@@ -19,24 +19,28 @@
         </style>
     </head>
     <body>
-        <div class="container border w-50">
-            <h1 class="start" style="font-size: 30px;">WELCOME to <span class="type"></span></h1>
+        <div class="container border col-12 col-sm-10 col-md-8 col-lg-6 mx-auto p-3">
+            <h1 class="start display-6 display-md-4">WELCOME to <span class="type"></span></h1>
             <p>Looking for motivation, humor, or wisdom? Let’s generate a quote!</p>
             <hr>
             <form>
-                <label for="name">Enter your name:</label><br>
-                <input type="text" name="name" id="yourname" required placeholder="Please Enter your name here!"><br>
-                <br>
-                <label for="feeling">What are you Feeling right now?:</label><br>
-                <select name="feeling" id="feeling">
-                    <option value="happy">Happy</option>
-                    <option value="sad">Sad</option>
-                </select>
-                <br><br>
-                <button type="button" class="button btn" onclick="getquote()">Submit</button>
+                <div class="mb-3">
+                    <label for="yourname" class="form-label">Enter your name:</label>
+                    <input type="text" name="name" class="form-control" id="yourname" required placeholder="Please Enter your name here!">
+                </div>
 
+                <div class="mb-3">
+                    <label for="feeling" class="form-label">What are you Feeling right now?</label>
+                    <select name="feeling" id="feeling" class="form-select">
+                        <option value="happy">Happy</option>
+                        <option value="sad">Sad</option>
+                    </select>
+                </div>
+
+                <button type="button" class="btn btn-warning w-100" onclick="getquote()">Submit</button>
             </form>
         </div>
+
 
         <!-------------------MODAAAAAL----------------------------->
 
