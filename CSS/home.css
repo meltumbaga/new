@@ -1,13 +1,4 @@
-body {
-  font-family: "Century Gothic", Arial, sans-serif;
-  text-align: center;
 
-  /* Background image */
-  background: url("C:/Users/Mel Tumbaga/Desktop/Sample Codes/Quote Generator/IMAGES/BG.jpg") no-repeat center center fixed;
-
-  /* Make it cover the whole screen */
-  background-size: cover;
-}
 
 .container{
     font-family: "Century Gothic", Arial, sans-serif;
@@ -59,16 +50,24 @@ button.button:hover {
     background-color: #EBA800;
 }
 
-h4{
-    color: #EBA800;
-}
-
 .modal{
     font-family: "Century Gothic", Arial, sans-serif;    
-    margin: 80px auto;      
-    border-radius: 100px; 
+    margin: 80px auto;
 }
 
 .quotes{
     color: #EBA832;
+    font-weight: bold;
+}
+.modal-header{
+  background-color: #EBA832;
+  color: black;
+}
+button.btn-danger{
+  background-color: #EBA832;
+  border: none;
+  color: black;
+}
+button.btn-danger:hover{
+  background-color: #EBA800;
 }
