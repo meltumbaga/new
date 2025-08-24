@@ -1,0 +1,74 @@
+body {
+  font-family: "Century Gothic", Arial, sans-serif;
+  text-align: center;
+
+  /* Background image */
+  background: url("C:/Users/Mel Tumbaga/Desktop/Sample Codes/Quote Generator/IMAGES/BG.jpg") no-repeat center center fixed;
+
+  /* Make it cover the whole screen */
+  background-size: cover;
+}
+
+.container{
+    font-family: "Century Gothic", Arial, sans-serif;
+    max-width: 100px;       
+    margin: 80px auto;      
+    padding: 20px;           
+    background: rgba(166, 166, 166, 0.5);
+    border-radius: 12px;     
+    box-shadow: 0 6px 10px;   
+}
+h1 {
+  font-size: 10px;
+  font-weight: bold;
+}   
+
+h1 .type {
+  color: #EBA832;
+}
+p{
+    font-size: 15px;
+}
+label{
+    font-size: 15px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-bottom: 2px solid #EBA832;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: rgba(166, 166, 166, 0);
+}
+button.button{
+    background-color: #EBA832;
+    width: 100%;
+    padding: 10px 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button.button:hover {
+    background-color: #EBA800;
+}
+
+h4{
+    color: #EBA800;
+}
+
+.modal{
+    font-family: "Century Gothic", Arial, sans-serif;    
+    margin: 80px auto;      
+    border-radius: 100px; 
+}
+
+.quotes{
+    color: #EBA832;
+}
