@@ -3,7 +3,7 @@ body {
   text-align: center;
 
   /* Background image */
-  background: url("C:/Users/Mel Tumbaga/Desktop/Sample Codes/Quote Generator/IMAGES/BG.jpg") no-repeat center center fixed;
+  background: url("IMAGES/BG.jpg") no-repeat center center fixed;
 
   /* Make it cover the whole screen */
   background-size: cover;
