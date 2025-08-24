@@ -1,4 +1,13 @@
 
+<<<<<<< HEAD
+=======
+  /* Background image */
+  background: url("IMAGES/BG.jpg") no-repeat center center fixed;
+
+  /* Make it cover the whole screen */
+  background-size: cover;
+}
+>>>>>>> 0b41ae3ad6be33230e61bdbc9da6fdb6430e6676
 
 .container{
     font-family: "Century Gothic", Arial, sans-serif;
@@ -57,6 +66,7 @@ button.button:hover {
 
 .quotes{
     color: #EBA832;
+<<<<<<< HEAD
     font-weight: bold;
 }
 .modal-header{
@@ -71,3 +81,6 @@ button.btn-danger{
 button.btn-danger:hover{
   background-color: #EBA800;
 }
+=======
+}
+>>>>>>> 0b41ae3ad6be33230e61bdbc9da6fdb6430e6676
